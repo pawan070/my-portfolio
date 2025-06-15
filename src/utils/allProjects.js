@@ -31,6 +31,7 @@ export const allProjects = [
         des: "Designed and developed responsive, editable email templates in HubSpot and Marketo for multiple clients across different industries.",
         heroImage: chess,
         images: [],
+        href: 'https://github.com/pawan070/my-portfolio',
         overview: "This project involved creating modular, mobile-friendly email templates tailored for client-specific campaigns in both HubSpot and Marketo. These templates were designed to be fully editable by marketing teams using drag-and-drop or WYSIWYG editors. The goal was to improve campaign efficiency, reduce production time, and ensure cross-client consistency across platforms.",
         role: "HubSpot & Marketo Email Developer",
         tech: "HTML CSS3",

@@ -63,7 +63,7 @@ export default function Project({ projectData }) {
 
             <div className="btn text-center p-2">
                 <a
-                    href="https://live-demo-link.com"
+                    href={projectData.href}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block mt-2 bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
