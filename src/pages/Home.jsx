@@ -15,7 +15,7 @@ export default function Home() {
         Welcome to a Developer's Hub
       </h1>
 
-      <div className="content flex flex-col-reverse md:flex-row justify-between items-center m-6 gap-8">
+      <div className="content flex flex-col-reverse md:flex-row justify-evenly items-center m-6 gap-8">
         <div className="content-text max-w-xl text-lg leading-relaxed">
           <p className="mb-4">
             👋 Hi, I'm <span className="font-bold text-blue-700">Pawan Joshi</span>, a front-end developer passionate about crafting intuitive, pixel-perfect web experiences.

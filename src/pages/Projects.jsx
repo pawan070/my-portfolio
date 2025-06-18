@@ -16,13 +16,13 @@ export default function Projects() {
             {allProjects.map((pro) => (
                 <div key={pro.id} className="max-w-5xl mx-auto px-4 py-10">
                     <div className="flex justify-between">
-                        <div>
+                        <div className='max-w-3xl'>
                             <h1 className="text-3xl font-bold mb-2">{pro.id}. {pro.tittle}</h1>
-                            <p className="text-gray-600 text-lg">{pro.des}</p>
+                            <p className="text-white-100 text-xl">{pro.des}</p>
                         </div>
                         <div>
                             <button 
-                                className='bg-green-500 text-white px-4 py-2 rounded hover:bg-green-700 mr-40'
+                                className='bg-green-500 text-white px-4 py-2 rounded hover:bg-green-700'
                                 onClick={() => toggleProject(pro.id)}
                             >
                                 {openProjectId === pro.id ? 'Close' : 'Open'} Project
