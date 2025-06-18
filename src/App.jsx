@@ -6,7 +6,7 @@ import MainLayout from "./layouts/MainLayout";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Skills from './pages/Skills';
-import Resumes from "./pages/resume";
+import Resumes from "./pages/Resume";
 
 function App() {
   return (   

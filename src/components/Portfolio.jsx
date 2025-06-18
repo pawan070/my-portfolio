@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const fileUrl = "/portfolio.pdf"; // Relative to public folder
+const fileUrl = "/portfolio.pdf";
 
 const PortfolioViewer = () => {
   return (
