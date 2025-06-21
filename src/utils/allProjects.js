@@ -1,5 +1,9 @@
 import chess from '../assets/chess.jpg';
 import portfolioHome from '../assets/portfolioHome.png';
+import folio1 from '../assets/folio1.png';
+import folio2 from '../assets/folio1.png';
+import folio3 from '../assets/folio1.png';
+import folio4 from '../assets/folio1.png';
 
 export const allProjects = [
     {
@@ -7,7 +11,7 @@ export const allProjects = [
         tittle: "My Portfolio",
         des: "This is my personal portfolio website showcasing my skills, projects, and experience. It serves as a platform to demonstrate my work and connect with potential clients 😁.",
         heroImage: portfolioHome,
-        images: [chess,],
+        images: [folio1,folio2,folio3,folio4],
         href:'',
         overview: "This project is a personal portfolio website built to showcase my skills, projects, and experience. It serves as a platform to demonstrate my work and connect with potential clients or employers. The site includes sections for my biography, skills, projects, and contact information. It is designed to be visually appealing, user-friendly, and responsive across devices. you can also find my resume, skills section where I share insights on web development and design. You can also find the link to my GitHub profile and linkedIn accounts.",
         role: "Sole developer responsible for frontend development, UI/UX, and deployment. I have designed and developed the entire website from scratch, ensuring it reflects my personal brand and professional capabilities.",
