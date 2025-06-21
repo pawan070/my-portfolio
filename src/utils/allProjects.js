@@ -1,26 +1,27 @@
 import chess from '../assets/chess.jpg';
+import portfolioHome from '../assets/portfolioHome.png';
 
 export const allProjects = [
     {
         id: 1,
-        tittle: "First Project",
-        des: "A smart solution to [problem statement].",
+        tittle: "My Portfolio",
+        des: "This is my personal portfolio website showcasing my skills, projects, and experience. It serves as a platform to demonstrate my work and connect with potential clients 😁.",
+        heroImage: portfolioHome,
         images: [chess,],
         href:'',
-        heroImage: chess,
-        overview: "This project is a [type] app that helps users [solve a problem or fulfill a need]. Built to address [context or purpose]. It includes features like [key features summary].",
-        role: "Sole developer responsible for full-stack development, UI/UX, and deployment.",
-        tech: "React, Node.js, Express, MongoDB, Tailwind CSS, Firebase Auth",
-        keyFeatures: ['blank', 'User registration with Firebase authentication', 'Real-time dashboard with chart.js visualizations', 'Admin panel with role-based access', 'Fully responsive and mobile-first design'],
-        challenges: "Learned to optimize performance with lazy loading and memoization. Faced and solved CORS issues while integrating with 3rd-party APIs. Gained experience in responsive design and accessibility."
+        overview: "This project is a personal portfolio website built to showcase my skills, projects, and experience. It serves as a platform to demonstrate my work and connect with potential clients or employers. The site includes sections for my biography, skills, projects, and contact information. It is designed to be visually appealing, user-friendly, and responsive across devices. you can also find my resume, skills section where I share insights on web development and design. You can also find the link to my GitHub profile and linkedIn accounts.",
+        role: "Sole developer responsible for frontend development, UI/UX, and deployment. I have designed and developed the entire website from scratch, ensuring it reflects my personal brand and professional capabilities.",
+        tech: "React,  Tailwind CSS, HTML, MUI(Material UI)",
+        keyFeatures: [ 'Fully responsive and mobile-first design','A downladable resume section','Skills section with insights on web development and design','Links to GitHub and LinkedIn profiles'],
+        challenges: "Learned to optimize performance with lazy loading and memoization. Gained experience in responsive design and accessibility. Implemented SEO best practices to enhance visibility."
     },
     {
         id: 2,
         tittle: "Second Project",
         des: "A smart solution to [problem statement].",
+        heroImage: chess,
         images: [],
         href:'',
-        heroImage: chess,
         overview: "This project is a [type] app that helps users [solve a problem or fulfill a need]. Built to address [context or purpose]. It includes features like [key features summary].",
         role: "Sole developer responsible for full-stack development, UI/UX, and deployment.",
         tech: "React, Node.js, Express, MongoDB, Tailwind CSS, Firebase Auth",

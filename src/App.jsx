@@ -19,7 +19,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/resume" element={<Resumes />} />
-            <Route path="/*" element={<div className="text-center font-bold text-2xl m-6 bg-slate-200 h-40 p-8">** Page Not Found **<br/><br/>Please check your slug</div>} />
+            <Route path="/*" element={<div className="text-center font-bold text-2xl m-6 bg-slate-200 h-40 p-8">** 404 :: Page Not Found **<br/><br/>Please check your slug</div>} />
           </Routes>
         </MainLayout>
       </Router>

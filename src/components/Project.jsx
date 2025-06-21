@@ -12,6 +12,7 @@ export default function Project({ projectData }) {
                 src={projectData.heroImage}
                 alt="Project Screenshot"
                 className="rounded shadow-lg mb-8 w-full object-cover max-h-[450px]"
+                loading="lazy"
             />
 
             {/* Overview Section */}

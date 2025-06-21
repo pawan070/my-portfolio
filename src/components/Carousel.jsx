@@ -20,10 +20,10 @@ const ImageCarousel = () => {
     return (
         <Box maxWidth={600} mx="auto">
             <Slider {...settings} className="px-10">
-                <img src={bg} alt="Screenshot 1" />
-                <img src={chess} alt="Screenshot 1" />
-                <img src={bg} alt="Screenshot 1" />
-                <img src={chess} alt="Screenshot 1" />
+                <img src={bg} alt="Screenshot 1" loading="lazy"/>
+                <img src={chess} alt="Screenshot 1" loading="lazy"/>
+                <img src={bg} alt="Screenshot 1" loading="lazy"/>
+                <img src={chess} alt="Screenshot 1" loading="lazy"/>
             </Slider>
         </Box>
     );

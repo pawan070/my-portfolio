@@ -32,7 +32,7 @@ export default function Home() {
         </div>
 
         <div className="image w-full md:w-5/12">
-          <img className="rounded-xl shadow-md transition-transform hover:scale-105 duration-300" src={home} alt="developer workspace" />
+          <img className="rounded-xl shadow-md transition-transform hover:scale-105 duration-300" src={home} alt="developer workspace" loading="lazy" />
         </div>
       </div>
       <div className="button text-center">
