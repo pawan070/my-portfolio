@@ -1,9 +1,9 @@
 import chess from '../assets/chess.jpg';
 import portfolioHome from '../assets/portfolioHome.png';
 import folio1 from '../assets/folio1.png';
-import folio2 from '../assets/folio1.png';
-import folio3 from '../assets/folio1.png';
-import folio4 from '../assets/folio1.png';
+import folio2 from '../assets/folio2.png';
+import folio3 from '../assets/folio3.png';
+import folio4 from '../assets/folio4.png';
 
 export const allProjects = [
     {

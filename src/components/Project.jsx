@@ -4,6 +4,7 @@ import Carousel from '../components/Carousel';
 
 
 export default function Project({ projectData }) {
+    console.log('first',projectData.images.length);
     return (
         <div className="max-w-5xl mx-auto px-4 py-10">
 
@@ -37,18 +38,18 @@ export default function Project({ projectData }) {
                 </div>
             </section>
 
-            {/* Screenshots */}
+            {/* Carousel Screenshots */}
             <section className="mb-10">
                 <h2 className="text-2xl font-semibold mb-4">Screenshots</h2>
-                <Carousel />
+                <Carousel images={projectData.images} />
             </section>
 
             {/* Features Section */}
             <section className="mb-10">
                 <h2 className="text-2xl font-semibold mb-4">Key Features</h2>
                 <ul className="list-disc pl-6 space-y-2 text-black-700">
-                {projectData.keyFeatures.map((value) => (
-                     <li>{value}</li>
+                {projectData.keyFeatures.map((value,i) => (
+                     <li key={'feature_'+i}>{value}</li>
                 ))}    
                 </ul>
             </section>

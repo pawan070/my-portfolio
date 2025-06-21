@@ -1,12 +1,13 @@
+import React from "react";
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Box } from "@mui/material";
 
-import bg from '../assets/bg.png';
-import chess from '../assets/chess.jpg';
 
-const ImageCarousel = () => {
+const ImageCarousel = ( {images} ) => {
+    console.log('carousel ',images.length);
     const settings = {
         dots: true,
         infinite: true,
@@ -20,10 +21,9 @@ const ImageCarousel = () => {
     return (
         <Box maxWidth={600} mx="auto">
             <Slider {...settings} className="px-10">
-                <img src={bg} alt="Screenshot 1" loading="lazy"/>
-                <img src={chess} alt="Screenshot 1" loading="lazy"/>
-                <img src={bg} alt="Screenshot 1" loading="lazy"/>
-                <img src={chess} alt="Screenshot 1" loading="lazy"/>
+                {images.map((image, index) => (
+                    <img src={image} key={index} alt="screenshot ${index}" loading="lazy" className="w-[500px] h-[300px] object-contain rounded"/>
+                ))}
             </Slider>
         </Box>
     );
