@@ -19,19 +19,19 @@ export const allProjects = [
         keyFeatures: [ 'Fully responsive and mobile-first design','A downladable resume section','Skills section with insights on web development and design','Links to GitHub and LinkedIn profiles'],
         challenges: "Learned to optimize performance with lazy loading and memoization. Gained experience in responsive design and accessibility. Implemented SEO best practices to enhance visibility."
     },
-    {
-        id: 2,
-        tittle: "Second Project",
-        des: "A smart solution to [problem statement].",
-        heroImage: chess,
-        images: [],
-        href:'',
-        overview: "This project is a [type] app that helps users [solve a problem or fulfill a need]. Built to address [context or purpose]. It includes features like [key features summary].",
-        role: "Sole developer responsible for full-stack development, UI/UX, and deployment.",
-        tech: "React, Node.js, Express, MongoDB, Tailwind CSS, Firebase Auth",
-        keyFeatures: [],
-        challenges: "Learned to optimize performance with lazy loading and memoization. Faced and solved CORS issues while integrating with 3rd-party APIs. Gained experience in responsive design and accessibility."
-    },
+    // {
+    //     id: 2,
+    //     tittle: "Second Project",
+    //     des: "A smart solution to [problem statement].",
+    //     heroImage: chess,
+    //     images: [],
+    //     href:'',
+    //     overview: "This project is a [type] app that helps users [solve a problem or fulfill a need]. Built to address [context or purpose]. It includes features like [key features summary].",
+    //     role: "Sole developer responsible for full-stack development, UI/UX, and deployment.",
+    //     tech: "React, Node.js, Express, MongoDB, Tailwind CSS, Firebase Auth",
+    //     keyFeatures: [],
+    //     challenges: "Learned to optimize performance with lazy loading and memoization. Faced and solved CORS issues while integrating with 3rd-party APIs. Gained experience in responsive design and accessibility."
+    // },
     {
         id: 3,
         tittle: "Email Creation & Management",
