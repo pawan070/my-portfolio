@@ -33,7 +33,7 @@ export const allProjects = [
     //     challenges: "Learned to optimize performance with lazy loading and memoization. Faced and solved CORS issues while integrating with 3rd-party APIs. Gained experience in responsive design and accessibility."
     // },
     {
-        id: 3,
+        id: 2,
         tittle: "Email Creation & Management",
         des: "Designed and developed responsive, editable email templates in HubSpot and Marketo for multiple clients across different industries.",
         heroImage: chess,
