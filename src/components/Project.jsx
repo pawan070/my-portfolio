@@ -73,6 +73,16 @@ export default function Project({ projectData }) {
                     View Code
                 </a>
             </div>
+             <div className="btn text-center p-2">
+                <a
+                    href={projectData.liveDemo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-2 bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
+                >
+                    Live Demo
+                </a>
+            </div>
         </div>
     );
 };
