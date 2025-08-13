@@ -63,14 +63,15 @@ export default function Project({ projectData }) {
                 </p>
             </section>
 
-            <div className="btn text-center p-2">
+            <div className="flex justify-center space-x-4">
+                <div className="btn text-center p-2">
                 <a
                     href={projectData.href}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block mt-2 bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
                 >
-                    View Code
+                    View Code in GitHub
                 </a>
             </div>
              <div className="btn text-center p-2">
@@ -82,6 +83,7 @@ export default function Project({ projectData }) {
                 >
                     Live Demo
                 </a>
+            </div>
             </div>
         </div>
     );
