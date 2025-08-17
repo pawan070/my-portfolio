@@ -4,7 +4,7 @@ import Carousel from '../components/Carousel';
 
 
 export default function Project({ projectData }) {
-    console.log('first',projectData.images.length);
+    // console.log('first',projectData.images.length);
     return (
         <div className="max-w-5xl mx-auto px-4 py-10">
 

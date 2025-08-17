@@ -8,7 +8,7 @@ import folio4 from '../assets/folio4.png';
 export const allProjects = [
     {
         id: 1,
-        tittle: "My Portfolio",
+        title: "My Portfolio",
         des: "This is my personal portfolio website showcasing my skills, projects, and experience. It serves as a platform to demonstrate my work and connect with potential clients 😁.",
         heroImage: portfolioHome,
         images: [folio1, folio2, folio3, folio4],
@@ -26,7 +26,7 @@ export const allProjects = [
     {
         id: 2,
         title: "Interactive JavaScript Projects",
-        description: "A showcase of interactive JavaScript applications demonstrating my ability to build dynamic, API-driven, and user-friendly web experiences.",
+        des: "A showcase of interactive JavaScript applications demonstrating my ability to build dynamic, API-driven, and user-friendly web experiences.",
         heroImage: chess,
         images: [],
         href: '',
@@ -45,7 +45,7 @@ export const allProjects = [
     },
     {
         id: 3,
-        tittle: "Email Creation & Management",
+        title: "Email Creation & Management",
         des: "Designed and developed responsive, editable email templates in HubSpot and Marketo for multiple clients across different industries.",
         heroImage: chess,
         images: [],
