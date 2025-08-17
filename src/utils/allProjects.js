@@ -42,8 +42,7 @@ export const allProjects = [
             "Responsive landing page design"
         ],
         challenges: "Through this project, I gained practical experience in API integration, handling asynchronous JavaScript (fetch/async-await), and structuring responsive UI components. I also learned how to design interactive applications that enhance user engagement while maintaining clean and maintainable code."
-    }
-
+    },
     {
         id: 3,
         tittle: "Email Creation & Management",
