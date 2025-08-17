@@ -30,6 +30,7 @@ export const allProjects = [
         heroImage: chess,
         images: [],
         href: '',
+        liveDemo: '',
         overview: "This project collection highlights my hands-on work with JavaScript, HTML5, and CSS. It includes several mini-applications such as a Weather App, a Calculator, a Real-Time Date & Time display, and a GitHub User Search tool. Each project is designed to be interactive, functional, and responsive, showcasing my skills in front-end development and API integration.",
         role: "I was responsible for designing and developing a responsive landing page, implementing free-to-use public APIs (such as weather data APIs), and ensuring smooth user interaction. This project demonstrates my ability to take ideas from concept to functional implementation with clean, efficient code.",
         tech: "JavaScript, HTML5, Vanilla CSS, REST APIs",
