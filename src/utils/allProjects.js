@@ -29,14 +29,13 @@ export const allProjects = [
         des: "A showcase of interactive JavaScript applications demonstrating my ability to build dynamic, API-driven, and user-friendly web experiences.",
         heroImage: chess,
         images: [],
-        href: '',
-        liveDemo: '',
-        overview: "This project collection highlights my hands-on work with JavaScript, HTML5, and CSS. It includes several mini-applications such as a Weather App, a Calculator, a Real-Time Date & Time display, and a GitHub User Search tool. Each project is designed to be interactive, functional, and responsive, showcasing my skills in front-end development and API integration.",
+        href: 'https://github.com/pawan070/JavaScriptProject',
+        liveDemo: 'https://pawan070.github.io/JavaScriptProject/',
+        overview: "This project collection highlights my hands-on work with JavaScript, HTML5, and CSS. It includes several mini-applications such as a Weather App, a Real-Time Date & Time display, and a GitHub User Search tool. Each project is designed to be interactive, functional, and responsive, showcasing my skills in front-end development and API integration.",
         role: "I was responsible for designing and developing a responsive landing page, implementing free-to-use public APIs (such as weather data APIs), and ensuring smooth user interaction. This project demonstrates my ability to take ideas from concept to functional implementation with clean, efficient code.",
         tech: "JavaScript, HTML5, Vanilla CSS, REST APIs",
         keyFeatures: [
             "Weather App with 7-day forecast using live API data",
-            "Calculator with dynamic input handling",
             "Real-time Date & Time modal",
             "GitHub User Search with API integration",
             "Responsive landing page design"
